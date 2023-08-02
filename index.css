@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Belleza', sans-serif;
+    
+}
+
+
+body{
+    background-image: url(/img/bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: 550px;
+
+}
+
+main{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition-duration: 1s;
+}
+
+main svg{
+    display: block;
+    position: relative;
+    top: 1px;
+}
+
+#menu{
+    height: auto;
+    background-color: #c90000;
+    text-align: center;
+}
+
+    #logo-nome{
+        height: 180px;
+        position: relative;
+        top: -80px;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+    }
+
+        #logo-nome h1{
+            font-size: 30px;
+            line-height: 100%;
+        }
+
+        #logo-nome span{
+            font-size: 24px;
+        }
+
+    #visible{
+        display: none;
+    }
+
+    #links{
+        display: flex;
+        justify-content: center;
+    }
+
+        #links a{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: #b10303;
+            color: aliceblue;
+            text-decoration: none;
+
+            width: 200px;
+            height: 60px;
+            margin: 15px 15px;
+            border-radius: 5px;
+            border: 1px solid #2b2b2b2a;
+        }
+
+        #links a:hover{
+            background-color: aliceblue;
+            color: #b10303;
+            transition-duration: 0.5s;
+        }
+
+    #redes ul{
+        display: flex;
+        justify-content: center;
+    }
+
+        #redes li{
+            margin: 20px;
+            padding: 5px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+#icone{
+    transition-duration: 0.3s;
+}
+
+    .fa-solid{
+        cursor: pointer;
+        margin: 25px;
+        transform: rotate(180deg);
+        
+        transition: all 1s ease;
+    }
+
+
+
+
+@media only screen and (max-width: 960px){
+
+    body{
+        background-size: 2500px;
+        background-position: center;
+        background-attachment: local;
+        height: 60vh;
+    
+    }
+
+    main svg{
+        display: block;
+        position: relative;
+        top: 2px;
+    }
+
+    #links a{
+        width: 200px;
+        height: 60px;
+        font-size: 1.8vw;
+        margin: 15px 10px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #2b2b2b2a;
+        
+    }
+
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 540px){
+
+    body{
+        background-size: 1500px;
+        height: 40vh;
+    
+    }
+    
+    #links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links a{
+        width: 200px;
+        height: 40px;
+        font-size: 3vw;
+        margin: 5px 10px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #2b2b2b2a;
+        
+    }
+
+    #redes li{
+        margin: 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+
+    #logo-nome{
+        height: 110px;
+        position: relative;
+        top: -55px;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    #logo-nome img{
+        width: 100px;
+    }
+    
+        #logo-nome h1{
+            font-size: 20px;
+        }
+
+        #logo-nome span{
+            font-size: 14px;
+        }
+
+    body{
+        background-size: 1200px;
+        height: 70vh;
+    
+    }
+    
+    #links a{
+        font-size: 3.3vw;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 300px){
+
+    #links a{
+        font-size: 4.1vw;
+    }
+}
