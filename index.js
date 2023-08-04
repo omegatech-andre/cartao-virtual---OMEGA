@@ -8,7 +8,7 @@ function Mudarestado() {
         document.getElementById("icone").style.transform ='rotate(0deg)';
     } else {
         document.getElementById("visible").style.display = 'block';
-        document.getElementById("icone").style.transform ='rotate(180deg)';
+        document.getElementById("icone").style.transform ='rotate(-180deg)';
 
     }
 }

@@ -113,7 +113,6 @@ path{
     .fa-solid{
         cursor: pointer;
         margin: 25px;
-        transform: rotate(180deg);
         
         transition: all 1s ease;
     }
