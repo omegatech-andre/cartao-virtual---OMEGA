@@ -1,0 +1,39 @@
+@use '../../../styles/mixins/mixins' as *;
+@use '../../../styles/variables/variables' as *;
+
+.buttonatv{
+  @include button-model;
+  min-width: 8rem;
+  margin: .3rem;
+  
+  &:hover{
+      @include button-model-hover;
+  }
+  
+  &__disabled{
+      @include button-disabled-model;
+      min-width: 8rem;
+      margin: .3rem;
+  }
+}
+
+@include viewport(md){
+  .buttonatv{
+      font-size: $tam-font-18;
+      min-width: 7rem;
+
+      &__disabled{
+          font-size: $tam-font-18;
+          min-width: 7rem;
+      }
+  }
+}
+
+@include viewport(sm){
+  .buttonatv{
+      font-size: $tam-font-16;
+      &__disabled{
+          font-size: $tam-font-16;
+      }
+  }
+}
