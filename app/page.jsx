@@ -34,7 +34,7 @@ export default function Page() {
                 <ButtonAtv link="https://chat.whatsapp.com/JeKkKdpVGbNBMr5ddPwVQ9" target="_blank" largura="15rem" nome="Silk xTreme" />
                 <ButtonAtv link="https://www.omegascreen.com.br/" target="_blank" largura="15rem" nome="Site Oficial" />
                 <ButtonAtv link="https://www.canva.com/design/DAFQKSiFu9E/mkECBY5Sy9WzJY-5Hbx6Xw/view?utm_content=DAFQKSiFu9E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" largura="15rem" nome="Portifólio" />
-                <ButtonAtv link="https://www.whatsapp.com/catalog/558182810058/?app_absent=0" target="_blank" largura="15rem" nome="Atendimento" />
+                <ButtonAtv link="https://api.whatsapp.com/send/?phone=5581982810058&text&type=phone_number&app_absent=0" target="_blank" largura="15rem" nome="Atendimento" />
               </div>
               <div className="page__content">
                 <a href="https://www.tiktok.com/@omegascreen.ind?is_from_webapp=1&sender_device=pc" target='_blank'><SiTiktok size={22}/></a>
