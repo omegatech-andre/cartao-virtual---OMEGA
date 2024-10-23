@@ -49,15 +49,15 @@
 
 @mixin button-disabled-model(){
     padding: .5rem 1rem;
-    background-color: $cor-bg-cinza-claro;
+    background-color: #c90000;
     border-radius: $borda-pequena;
     border: $borda;
     box-shadow: $borda-shadow-inset;
-    color: $cor-font-marcadagua;
+    color: #c0c0c0b4;
     font-size: $tam-font-20;
     font-weight: 800;
     text-transform: uppercase;
-    cursor: default;
+    cursor: not-allowed;
 }
 
 
