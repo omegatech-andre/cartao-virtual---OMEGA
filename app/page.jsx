@@ -31,7 +31,7 @@ export default function Page() {
           isVisible && (
             <>
               <div className="page__content">
-                <ButtonAtv link="https://chat.whatsapp.com/JeKkKdpVGbNBMr5ddPwVQ9" target="_blank" largura="15rem" nome="Silk xTreme" />
+                <ButtonAtv link="" target="_blank" largura="15rem" nome="Silk xTreme" />
                 <ButtonAtv link="https://www.omegascreen.com.br/" target="_blank" largura="15rem" nome="Site Oficial" />
                 <ButtonAtv link="https://www.canva.com/design/DAFQKSiFu9E/mkECBY5Sy9WzJY-5Hbx6Xw/view?utm_content=DAFQKSiFu9E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" largura="15rem" nome="Portfólio" />
                 <ButtonAtv link="https://api.whatsapp.com/send/?phone=5581982810058&text&type=phone_number&app_absent=0" target="_blank" largura="15rem" nome="Atendimento" />
